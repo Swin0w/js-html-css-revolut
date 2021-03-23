@@ -22,6 +22,9 @@ li {
   display: inline-block;
   vertical-align: middle;
 }
+#head-sx li > a:hover, #head-dx li > a:hover {
+  color: grey;
+}
 /* HEADER */
 header {
   width: 100%;
@@ -65,5 +68,8 @@ header {
 }
 /* JS CLASS */
 .hoverMenu {
+  background-color: #000;
   display: none;
+  width: 200px;
+  height: 200px;
 }
